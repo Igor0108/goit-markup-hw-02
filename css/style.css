@@ -43,7 +43,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -55,11 +55,11 @@ a {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.current{
+.current {
   color: var(--accent-color);
 }
 
@@ -71,7 +71,7 @@ a {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -103,10 +103,13 @@ a {
   font-size: 16px;
   line-height: 1.88;
   display: flex;
+  align-items: center;
+  text-align: center;
   letter-spacing: 0.06em;
+  text-decoration: none;
 }
 .hero-btn:hover,
- .hero-btn:focus {
+.hero-btn:focus {
   background-color: var(--btn-background-color);
 }
 .advantage-title {
@@ -131,14 +134,10 @@ a {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .team {
   background-color: var(--team-background-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1, 17;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-workers {
@@ -146,13 +145,14 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 .team-professions {
   color: var(--title-text-color);
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 /*footer*/
@@ -164,7 +164,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -173,7 +173,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
