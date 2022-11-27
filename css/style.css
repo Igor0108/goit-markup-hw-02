@@ -104,7 +104,8 @@ a {
   display: flex;
   letter-spacing: 0.06em;
 }
-.hero-btn:hover .hero-btn:focus {
+.hero-btn:hover,
+ .hero-btn:focus {
   background-color: var(--btn-background-color);
 }
 .advantage-title {
